@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="dist/index.js" type="module" defer></script>
+</head>
+<body>
+  <ul id="list"></ul>
+  <form id="new-task-form">
+    <label for="new-task-title">title: </label>
+    <input type="text" id="new-task-title"><br>
+    <label for="body">task description: </label><br>
+    <textarea id="body" rows="10" cols="30">enter text here</textarea><br>
+    <button type="submit">Add</button>
+    <button type="button" id="removeButton">Remove Completed Tasks</button>
+  </form>
+</body>
+</html>
