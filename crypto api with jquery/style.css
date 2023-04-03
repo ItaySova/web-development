@@ -1,0 +1,98 @@
+/* paralax */
+
+.parallax {
+  text-align: center;
+  color: var(--color);
+  width: 100%;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(assest/marble-2371776_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  
+/*  this is where the magic happens:  */
+  background-attachment: fixed;
+}
+
+body {
+  background-color: #cccccc;
+ }
+
+h1 {
+  background-color: var(--color);
+  margin-bottom: 0;
+    /* height: 10rem; */
+    font-size: 5rem;
+}
+
+#header {
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+
+#maintable {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    display: flex;
+}
+
+#actutalTable{
+  width: 100%;
+}
+
+.notDisplay{
+  display: none;
+}
+
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+li {
+  list-style: none;
+}
+
+h5 {
+  display: inline;
+}
+
+div.form-check-reverse{
+  display: inline;
+}
+
+#flexSwitchCheckReverse {
+  margin-right: 0.5rem;
+}
+
+.info {
+  margin-top: 1rem;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+img {
+  max-width: 50%;
+  height: auto;
+}
